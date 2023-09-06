@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.answer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.answer-button-0 {
+  background-color: rgb(132, 132, 226);
+}
+
+.answer-button-1 {
+  background-color: rgb(231, 89, 89);
+}
+
+.answer-button-2 {
+  background-color: rgb(113, 221, 113);
+}
+
+.answer-button-3 {
+  background-color: rgb(218, 110, 218);
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button.black-text {
+  color: black;
+}
+
+p {
+  font-size: 18px;
+}
+
+.quiz-container,
+.results-container {
+  text-align: center;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(247, 196, 102);
+  padding: 15px;
+  color: white;
+  justify-content: center;
+}
+
+.main-content {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.continue-button {
+  margin: auto;
+  display: block;
+  background-color: darkblue;
+  color: white;
+  margin: auto;
+  display: block;
+}
