@@ -24,7 +24,7 @@ To run the Quizapp locally, follow these steps:
 2. **Install dependencies**:
 
     ```bash
-    npm install
+    npm install next react react-dom
     ```
 
 3. **Start the development server**:
